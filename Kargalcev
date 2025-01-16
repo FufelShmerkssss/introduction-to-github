@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Kargaltsev
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b, g, y;
+            string s;
+            s = Console.ReadLine();
+            a=Convert.ToInt32(s);
+            s = Console.ReadLine();
+            b= Convert.ToInt32(s);
+            s = Console.ReadLine();
+            g = Convert.ToInt32(s);
+            y = a * g + a * b + 5;
+            Console.WriteLine("Результат=" + y);
+            Console.ReadKey();
+
+        }
+    }
+}
